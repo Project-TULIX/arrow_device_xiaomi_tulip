@@ -1,6 +1,50 @@
 [
   {
-    "repository": "android_device_xiaomi_sdm660-common",
+    "repository":  "device_xiaomi_tulip-common",
     "target_path": "device/xiaomi/sdm660-common"
+  },
+  {
+    "repository"  : "vendor_xiaomi_tulip",
+    "target_path" : "vendor/xiaomi/tulip"
+  },
+  {
+    "repository":  "vendor_xiaomi_tulip-common",
+    "target_path": "vendor/xiaomi/sdm660-common"
+  },
+  {
+    "remote":      "github",
+    "repository":  "xiaomi-sdm660/vendor_xiaomi_dirac",
+    "target_path": "vendor/xiaomi/dirac",
+    "branch":      "11"
+  },
+  {
+    "remote":      "github",
+    "repository":  "OdSazib/halcyon_kernel_sdm660",
+    "target_path": "kernel/xiaomi/tulip",
+    "branch":      "eas"
+  },
+  {
+    "remote":      "github",
+    "repository":  "AOSP-11/hardware_qcom-caf_display_msm8998",
+    "target_path": "hardware/qcom-caf/msm8998-tulip/display",
+    "branch":      "11"
+  },
+  {
+    "remote":      "github",
+    "repository":  "AOSP-11/hardware_qcom-caf_media_msm8998",
+    "target_path": "hardware/qcom-caf/msm8998-tulip/media",
+    "branch":      "11"
+  },
+  {
+    "remote":      "github",
+    "repository":  "AOSP-11/hardware_qcom-caf_audio_msm8998",
+    "target_path": "hardware/qcom-caf/msm8998-tulip/audio",
+    "branch":      "11"
+  },
+{
+    "remote":      "github",
+    "repository":  "LineageOS/android_vendor_qcom_opensource_healthd-ext",
+    "target_path": "vendor/qcom/opensource/healthd-ext",
+    "branch":      "lineage-18.1"
   }
 ]
