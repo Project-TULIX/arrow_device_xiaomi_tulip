@@ -13,12 +13,6 @@
   },
   {
     "remote":      "github",
-    "repository":  "xiaomi-sdm660/vendor_xiaomi_dirac",
-    "target_path": "vendor/xiaomi/dirac",
-    "branch":      "11"
-  },
-  {
-    "remote":      "github",
     "repository":  "OdSazib/halcyon_kernel_sdm660",
     "target_path": "kernel/xiaomi/tulip",
     "branch":      "eas"
